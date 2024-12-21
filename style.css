@@ -1,0 +1,59 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+/* Video Container */
+#video-container {
+  position: relative;
+  width: 80%;
+  margin: 20px auto;
+}
+
+video {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Custom Controls */
+.controls {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="range"] {
+  margin-left: 20px;
+  width: 150px;
+}
